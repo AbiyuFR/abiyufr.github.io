@@ -1,13 +1,20 @@
 body {
-  min-height: 3000px;
+  min-height: 2000px;
 }
 .jumbotron {
   padding-top: 6rem;
   background-color: #ff8686;
+
+  /* background: #ff8686; */
+  background: linear-gradient(180deg, #dc3545 0%, #f3d9d9 100%);
+  color: white;
 }
 
 #projects {
   background-color: #ff8686;
+
+  background: linear-gradient(180deg, #f3d9d9 0%, #dc3545 100%);
+  color: white;
 }
 
 section {
